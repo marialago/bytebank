@@ -1,4 +1,5 @@
 # Bytebank
+This project was developed during the course of the Angular Framework of the Alura platform with the objective of studying. <br>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
 
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+##References
+[1] https://cursos.alura.com.br/course/angular-comecando-framework
