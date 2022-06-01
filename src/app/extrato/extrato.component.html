@@ -1,9 +1,11 @@
-<table class="tabela">
-  <thead class="tabela__cabecalho">
-    <th class="tabela__cabecalho__conteudo">Data</th>
-    <th class="tabela__cabecalho__conteudo">Valor</th>
-    <th class="tabela__cabecalho__conteudo">Destino</th>
-  </thead>
+<section class="container">
+  <h2 class="titulo"> Transfêrencias</h2>
+  <table class="tabela">
+    <thead class="tabela__cabecalho">
+      <th class="tabela__cabecalho__conteudo">Data</th>
+      <th class="tabela__cabecalho__conteudo">Valor</th>
+      <th class="tabela__cabecalho__conteudo">Destino</th>
+    </thead>
   <tbody *ngIf="transferencias?.length > 0 ;else listaVazia">
     <tr class="tabela__linha" *ngFor="let transferencia of transferencias">
       <td class="tabela__conteudo">
@@ -17,3 +19,4 @@
 <ng-template #listaVazia>
   <p>Nenhuma operação cadastrada</p>
 </ng-template>
+</section>
